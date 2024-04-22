@@ -1,15 +1,7 @@
-import React from 'react'
-import logo from './logo.svg'
-import './App.css'
+import Blog from 'pages/blog'
 
 function App() {
-  return (
-    <div className='App'>
-      <header className='App-header'>
-        <a>Learn React</a>
-      </header>
-    </div>
-  )
+  return <Blog />
 }
 
 export default App
